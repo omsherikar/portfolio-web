@@ -4,19 +4,6 @@ import { motion } from 'framer-motion'
 import TechStack from './TechStack'
 
 const About = () => {
-  const skills = [
-    'JavaScript',
-    'TypeScript',
-    'React',
-    'Next.js',
-    'Node.js',
-    'Python',
-    'SQL',
-    'Git',
-    'Docker',
-    'AWS',
-  ]
-
   return (
     <section id="about" className="py-20">
       <motion.div
@@ -32,7 +19,7 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-8 mb-20">
           <div>
             <p className="text-gray-400 mb-4">
-              Hello! I'm a passionate software developer with a strong foundation in web development.
+              Hello! I&apos;m a passionate software developer with a strong foundation in web development.
               I enjoy creating things that live on the internet, whether that be websites,
               applications, or anything in between.
             </p>
